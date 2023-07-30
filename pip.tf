@@ -17,7 +17,7 @@ terraform {
 }
 data "azurerm_resource_group" "example" {
   name     = "rg1"
-  location ="east us"
+  
 }
 
 resource "azurerm_public_ip" "example" {
